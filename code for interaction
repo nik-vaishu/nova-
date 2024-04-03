@@ -44,7 +44,7 @@ API_KEY = "YOUR_API_KEY_HERE"
 # THE QUESTION ANS SIGHT ANSWER PLACE IS LEFT BLANK FOR US TO WRITE OUR OWN SIGHT#####
   
 def main():
-    speak("Hello, I am SIVI+. How can I assist you today?")
+    speak("Hello, I am NOVA+. How can I assist you today?Sir/Ma'am")
     while True:
         query = recognize_speech()
         if 'alarm' in query:
@@ -64,10 +64,21 @@ def main():
             break
         else:
             # Handle personal queries here
-            speak("Sorry, I'm not programmed to handle that yet.")
+            speak("Sorry, I'm not programmed to handle that yet. ")
 
 if __name__ == "__main__":
     main()
-    ##### CMT FOR MA'AM..... I ASKED CHAT GPT THAT IF I REPLACE THE API SECTION WITH ACTUAL API KEY SO IT GAVE ME THIS ANSWER"No. After replacing "YOUR_API_KEY_HERE" with your actual API key and providing actual questions and answers, the code still won't work as expected. It requires further implementation to handle the user's queries and integrate with any APIs or functionalities you desire.".. SO I WANT TO KNOW THAT WHAT DOES IT MEANS?? AND HOW I CAN CORRECT IT?
-#-----------------------------------------------------------------#
+=====================================================================================================================================================================================================================
+                               ##### CMT FOR MA'AM..... I ASKED CHAT GPT THAT IF I REPLACE THE API SECTION WITH ACTUAL API KEY SO IT GAVE ME THIS ANSWER"No.
+
+      After replacing "YOUR_API_KEY_HERE" with your actual API key and providing actual questions and answers, the code still won't work as expected.
+      It requires further implementation to handle the user's queries and integrate with any APIs or functionalities you desire.".. 
+      SO I WANT TO KNOW THAT WHAT DOES IT MEANS?? AND HOW I CAN CORRECT IT?
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------#
 # ANOTHER CMT FOR MA;AM... SO IS THERE ANY WAY TO DECREASE THE RESPONCE TIME ?
+===================================================================================================================================================================================================================
+#another cmt for ma'am that I want to program my Nova so that it can respond to different but related questions with the same answer.........
+ For example, if I say 'alarm', 'set alarm', or 'I want to set alarm', Nova should understand all the commands, but the response should be the same: 'Yes, for what time?'"
+===================================================================================================================================================================================================================
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx D  O   N    E xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
